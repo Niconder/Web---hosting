@@ -1,0 +1,16 @@
+# GitHub Pages configuration
+source: public
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - .gitignore
+  - server/
+  - build/
+
+# Custom domain configuration (uncomment and modify if needed)
+# url: https://your-domain.com
+# baseurl: ""
